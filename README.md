@@ -70,6 +70,9 @@ g++ -o mi_programa mi_programa.cpp
 - Asegúrate de ejecutar tu programa con los permisos adecuados, ya que manipular el registro puede requerir privilegios elevados.
 - La opción de depuración (`debug`) está habilitada por defecto, lo que permite ver mensajes útiles durante la ejecución.
 
+## Nota
+    - Para el debug se utilizo `gdb`
+
 ## Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
