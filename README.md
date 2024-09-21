@@ -1,7 +1,3 @@
-baat_winreg
-
-**Autor:** Carlos-dev-G
-
 `baat_winreg.hpp` es una biblioteca de C++ que proporciona una interfaz simple para interactuar con el registro de Windows. Permite crear, eliminar y manipular claves del registro de manera eficiente.
 
 ## Características
@@ -68,7 +64,8 @@ Para compilar tu programa, puedes usar el siguiente comando en TDM-GCC:
 g++ -o mi_programa mi_programa.cpp
 ```
 
-### Notas
+**Autor:** Carlos-dev-G
+
 
 - Asegúrate de ejecutar tu programa con los permisos adecuados, ya que manipular el registro puede requerir privilegios elevados.
 - La opción de depuración (`debug`) está habilitada por defecto, lo que permite ver mensajes útiles durante la ejecución.
