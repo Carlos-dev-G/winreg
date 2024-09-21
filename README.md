@@ -1,22 +1,24 @@
-`baat_winreg.hpp` es una biblioteca de C++ que proporciona una interfaz simple para interactuar con el registro de Windows. Permite crear, eliminar y manipular claves del registro de manera eficiente.
+# `baat_winreg.hpp`
+
+`baat_winreg.hpp` es una biblioteca de C++ diseñada para ofrecer una interfaz sencilla y eficiente para interactuar con el registro de Windows. Facilita la creación, eliminación y manipulación de claves del registro, lo que permite a los desarrolladores gestionar configuraciones de aplicaciones de manera efectiva.
 
 ## Características
 
-- Crear claves del registro.
-- Borrar claves del registro.
-- Guardar y obtener valores de claves del registro.
-- Opciones de depuración.
+- **Crear claves del registro:** Genera nuevas entradas en el registro.
+- **Borrar claves del registro:** Elimina claves y sus valores asociados.
+- **Guardar y obtener valores:** Almacena y recupera datos de las claves del registro.
+- **Opciones de depuración:** Mensajes útiles durante la ejecución para facilitar la identificación de problemas.
 
 ## Uso
 
 ### Requisitos
 
-- Windows
-- Compilador compatible con C++ (como TDM-GCC)
+- **Sistema operativo:** Windows
+- **Compilador:** Compatible con C++ (como TDM-GCC)
 
 ### Inclusión de la biblioteca
 
-Para utilizar la biblioteca, asegúrate de incluir el archivo `baat_winreg.hpp` en tu proyecto.
+Asegúrate de incluir el archivo `baat_winreg.hpp` en tu proyecto para utilizar la biblioteca.
 
 ### Ejemplo de código
 
@@ -58,20 +60,14 @@ int main() {
 
 ### Compilación
 
-Para compilar tu programa, puedes usar el siguiente comando en TDM-GCC:
+Para compilar tu programa, usa el siguiente comando en TDM-GCC:
 
 ```bash
 g++ -o mi_programa mi_programa.cpp
 ```
 
-**Autor:** Carlos-dev-G
-
-
-- Asegúrate de ejecutar tu programa con los permisos adecuados, ya que manipular el registro puede requerir privilegios elevados.
-- La opción de depuración (`debug`) está habilitada por defecto, lo que permite ver mensajes útiles durante la ejecución.
-
-## Nota
-    - Para el debug se utilizo `gdb`
+### Notas Adicionales
+- **Depuración:** La opción de depuración (`debug`) está habilitada por defecto. Utiliza `gdb` para depurar si es necesario.
 
 ## Licencia
 
